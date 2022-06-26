@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Boldarial', Australia;
   font-weight: 100;
 }
 
@@ -88,41 +88,151 @@ body {
 }
 
 .main .container {
-  margin: 80px auto;
+  margin: 110px auto;
 }
 
 .main img {
-  float: left;
+  float: left ;
   margin: 50px 80px 50px 0;
 }
 
-.jumbotron {
-  background: url(https://content.codecademy.com/projects/innovation-cloud/jumbotron_bg.jpg) center center;
+.Education {
+  background: darkgray;
   background-size: cover;
   height: 600px;
 }
 
-.jumbotron .container {
+.Education .container {
   position: relative;
-  top: 220px;
+  top: 75px;
 }
 
-.jumbotron h2 {
+.Education h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.Education p {
+  color: #fff;
+  text-align: left;
+}
+
+.Education .btn {
+  margin: 10px 0 0;
+  float: left;
+}
+.Employment {
+  background: darkgray;
+  background-size: cover;
+  height: 1500px;
+}
+.Employment ul li{
+  font-style: Australia;
+  color: black;
+}
+.Employment .container {
+  position: relative;
+  top: 60px;
+}
+
+.Employment h2 {
+  color: #FFF;
+  text-align: left;
+}
+
+.Employment p {
+  color: #fff;
+  text-align: left;
+}
+
+.Employment .btn {
+  margin: 10px 0 0;
+  float: left;
+}
+.Employment .btn {
+  background: #000;
+  height: 80px;
+  padding-bottom: 50px;
+}
+.Skills {
+  background: black;
+  background-size: cover;
+  height: 600px;
+}
+.skills .container {
+  position: relative;
+  top: 75px;
+}
+
+.Skills h2 {
+  color: #FFF;
+  text-align: right;
+}
+
+.Skills p {
   color: #fff;
   text-align: right;
 }
 
-.jumbotron p {
-  color: #fff;
-  text-align: right;
-}
-
-.jumbotron .btn {
+.Skills.btn {
   margin: 10px 0 0;
   float: right;
 }
+.Skills .btn {
+  background: #000;
+  height: 80px;
+  padding-bottom: 50px;
+}
+.Hobbies {
+  background: darkgray;
+  background-size: cover;
+  height: 600px;
+}
 
-.footer {
+.Hobbies .container {
+  position: relative;
+  top: 75px;
+}
+
+.Hobbies h2 {
+  color: #fff;
+  text-align: right;
+}
+
+.Hobbies p {
+  color: #fff;
+  text-align: right;
+}
+
+.Hobbies .btn {
+  margin: 10px 0 0;
+  float: right;
+}
+.References {
+  background: darkgray;
+  background-size: cover;
+  height: 200px;
+}
+.References .container {
+  position: relative;
+  top: 75px;
+}
+
+.References h2 {
+  color: #FFF;
+  text-align: right;
+}
+
+.References p {
+  color: #fff;
+  text-align: right;
+}
+
+.References.btn {
+  margin: 10px 0 0;
+  float: right;
+}
+.References .btn {
   background: #000;
   height: 80px;
   padding-bottom: 50px;
